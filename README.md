@@ -4,7 +4,6 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<title>たつのサイト</title>
 <meta charset="UFT-8">
 </head>
 <body>
