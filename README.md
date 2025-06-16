@@ -10,17 +10,17 @@
 <body>
 <h1>O君</h1>
 <h2>歌手の紹介</h2>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li><a href="https://riudomura.fanpla.jp/"target="_blank">堂村璃羽</li>
+<li><a href="https://chanmina.com/"target="_blank">ちゃんみな</li>
+<li><a href="https://www.hoshinogen.com/"target="_blank">星野源</li>
+<li><a href="https://hiraidai.com/"target="_blank">平井大</a></li>
 <h2>おすすめの曲</h2>
-<li><a href=""></a></li>
-<li><a href=""></a></li>
-<li><a href=""></a></li>
-<li><a href=""></a></li>
-<li><a href=""></a></li>
+<li><a href="https://www.youtube.com/watch?v=CFBStXempJY&list=RDCFBStXempJY&start_radio=1">SAD SONG(ちゃんみな)</a></li>
+<li><a href="https://www.youtube.com/watch?v=yJaZuxmTUvc&list=RDyJaZuxmTUvc&start_radio=1">おともだち(edhiii boi)</a></li>
+<li><a href="https://www.youtube.com/watch?v=u7rBhwaMGwM&list=RDu7rBhwaMGwM&start_radio=1">君のまま(百足
+＆韻マン)</a></li>
+<li><a href="https://www.youtube.com/watch?v=riqD9Zn9AVQ&list=RDriqD9Zn9AVQ&start_radio=1">ダル着のまま迎えに行くよ(KeeP)</a></li>
+<li><a href="https://www.youtube.com/watch?v=q09Gs6e5XVI&list=RDq09Gs6e5XVI&start_radio=1">YOKAZE(変態紳士クラブ)</a></li>
 <p>詳細はそれぞれのリンクをクリック！</p>
 </body>
 </html>
