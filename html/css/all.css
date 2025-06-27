@@ -1,5 +1,5 @@
 body {
-    font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN",sans-serif;
     background: #f7f7f7;
     color: #222;
     margin: 40px;
@@ -8,14 +8,16 @@ body {
 h1 {
     font-size: 2.2em;
     margin-bottom: 0.25em;
-    color: #34495e;
+    color: #000;
+    background-color: #cccccc;
+    border-bottom: #000000;
 }
 
 h2 {
     font-size: 1.4em;
     margin-top: 2em;
     margin-bottom: 0.8em;
-    color: #2980b9;
+    color: #000;
 }
 
 li {
@@ -28,11 +30,6 @@ a {
     text-decoration: none;
     font-weight: bold;
     transition: color 0.2s;
-}
-
-a:hover {
-    color: #e67e22;
-    text-decoration: underline;
 }
 
 p {
