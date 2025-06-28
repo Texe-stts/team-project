@@ -15,33 +15,6 @@ h1 {
     margin-bottom: 20px;
 }
 
-p.red {
-    color: #d9534f;
-    font-weight: bold;
-}
-
-ul {
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(50,50,70,0.1);
-    list-style: none;
-    padding: 28px 20px 24px 30px;
-    max-width: 460px;
-}
-
-li {
-    font-size: 1.1em;
-    margin: 16px 0;
-    padding-left: 4px;
-    line-height: 1.8;
-    transition: background 0.2s;
-}
-
-li:hover {
-    background: #f0f5ff;
-    border-radius: 5px;
-}
-
 a {
     color: #e67a3c;
     text-decoration: none;
@@ -49,7 +22,88 @@ a {
     transition: color 0.2s, border-bottom 0.2s;
 }
 
-a:hover {
-    color: #ba4700;
-    border-bottom: 2px solid #ba4700;
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+a.btn-flat {
+  overflow: hidden;
+
+  padding: 1rem 5rem;
+
+  color: #ddff00;
+  border-radius: 0;
+  background: #6948b787;
+}
+
+a.btn-flat span {
+  position: relative;
+}
+
+a.btn-flat:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 150%;
+  height: 500%;
+
+  content: "";
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+
+  background: #00b7ee;
+}
+
+a.btn-flat:hover:before {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+.contents1,.contents2{
+width: 75%;
+height: 200px;
+}
+
+.contents1{
+float: right;
+}
+
+.contents2{
+float: left;
 }
