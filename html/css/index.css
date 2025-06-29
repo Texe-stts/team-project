@@ -1,9 +1,8 @@
 body {
-    background: #f7f7fa;
     font-family: 'Segoe UI', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN',
         'メイリオ', meiryo, sans-serif;
     margin: 0;
-    padding: 40px;
+    padding: 50px;
     color: #222;
     font-size: large;
 }
@@ -23,6 +22,12 @@ a {
     transition: color 0.2s, border-bottom 0.2s;
 }
 
+p.sentence {
+  margin: 10px;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
 *,
 *:before,
 *:after {
@@ -38,7 +43,7 @@ html {
 
 .btn,
 a.btn,
-button.btn {
+button.btn { 
   font-size: 1.6rem;
   font-weight: 700;
   line-height: 1.5;
@@ -56,7 +61,6 @@ button.btn {
   vertical-align: middle;
   text-decoration: none;
   letter-spacing: 0.1em;
-  color: #212529;
   border-radius: 0.5rem;
 }
 
@@ -98,7 +102,7 @@ a.btn-flat:hover:before {
 
 .contents1,.contents2{
 width: 75%;
-height: 200px;
+height: 10px;
 }
 
 .contents1{
