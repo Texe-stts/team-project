@@ -1,8 +1,8 @@
 body {
-    background: #f7f7fa;
     margin: 0;
     padding: 40px;
     color: #222;
+    background-image: linear-gradient(to right, #b0c9e6, #002364);
 }
 
 h1 {
@@ -51,3 +51,4 @@ a:hover {
     color: #ba4700;
     border-bottom: 2px solid #ba4700;
 }
+
